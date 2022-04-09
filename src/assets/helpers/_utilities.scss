@@ -61,6 +61,8 @@ $utilities: map-merge(
         sm: $box-shadow-sm,
         lg: $box-shadow-lg,
         none: none,
+        card: -8px 8px 0px #00040029,
+        btn: -2px 2px 0px #000400
       )
     ),
     // scss-docs-end utils-shadow
