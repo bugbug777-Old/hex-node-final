@@ -442,7 +442,11 @@ $utilities: map-merge(
     "font-family": (
       property: font-family,
       class: font,
-      values: (monospace: var(--#{$variable-prefix}font-monospace))
+      values: (
+        monospace: var(--#{$variable-prefix}font-monospace),
+        baloo: 'Baloo Da 2',
+        lato: 'Lato'
+      )
     ),
     "font-size": (
       rfs: true,
