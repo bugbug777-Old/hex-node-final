@@ -36,7 +36,7 @@
               >
             </button>
             <ul
-              class="dropdown-menu rounded-0 border-2 border-dark text-center mt-2"
+              class="dropdown-menu rounded-0 border-2 border-dark text-center py-0 mt-2"
               aria-labelledby="navbarDarkDropdownMenuLink"
             >
               <li class="border-bottom border-2 border-dark">
