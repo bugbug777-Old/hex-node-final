@@ -36,7 +36,10 @@
                 />
               </div>
               <div class="invalid-feedback mb-4">帳號或密碼錯誤，請重新輸入！</div>
-              <button type="submit" class="btn btn-primary border border-2 shadow-btn w-100">
+              <button
+                type="submit"
+                class="btn btn-primary border border-2 border-dark shadow-btn w-100"
+              >
                 登入
               </button>
             </form>
