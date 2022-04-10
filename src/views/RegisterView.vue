@@ -21,10 +21,11 @@
                 <label for="name" class="form-label d-none"></label>
                 <input
                   type="name"
-                  class="form-control rounded-0 border-2 border-black"
+                  class="form-control rounded-0 border-2 border-black mb-1"
                   id="name"
                   placeholder="暱稱"
                 />
+                <div class="invalid-feedback text-start">暱稱至少 2 個字元以上</div>
               </div>
               <div class="mb-4">
                 <label for="email" class="form-label d-none"></label>
@@ -34,6 +35,7 @@
                   id="email"
                   placeholder="Email"
                 />
+                <div class="invalid-feedback text-start">帳號已被註冊，請替換新的 Email！</div>
               </div>
               <div class="mb-8">
                 <label for="password" class="form-label d-none"></label>
@@ -43,6 +45,7 @@
                   id="password"
                   placeholder="Password"
                 />
+                <div class="invalid-feedback text-start">密碼需至少 8 碼以上，並中英混合</div>
               </div>
               <button type="submit" class="btn btn-secondary border border-2 text-white w-100">
                 註冊
