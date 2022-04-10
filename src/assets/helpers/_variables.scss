@@ -89,7 +89,8 @@ $theme-colors: (
   "dark":       $dark,
   "white":      $white,
   "black":      $black,
-  "light-gray": #EFECE7
+  "light-gray": #EFECE7,
+  "pale-gray": #9B9893
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -389,6 +390,7 @@ $spacers: (
   9: $spacer * 2.25,
   10: $spacer * 2.5,
   12: $spacer * 3,
+  13: $spacer * 3.25,
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -953,8 +955,8 @@ $form-switch-checked-bg-position: right center !default;
 // scss-docs-end form-switch-variables
 
 // scss-docs-start input-group-variables
-$input-group-addon-padding-y:           $input-padding-y !default;
-$input-group-addon-padding-x:           $input-padding-x !default;
+$input-group-addon-padding-y:           .75rem !default; // $input-padding-y !default;
+$input-group-addon-padding-x:           1rem !default; // $input-padding-x !default;
 $input-group-addon-font-weight:         $input-font-weight !default;
 $input-group-addon-color:               $input-color !default;
 $input-group-addon-bg:                  $gray-200 !default;

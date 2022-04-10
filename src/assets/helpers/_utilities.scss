@@ -61,8 +61,9 @@ $utilities: map-merge(
         sm: $box-shadow-sm,
         lg: $box-shadow-lg,
         none: none,
-        card: -8px 8px 0px #00040029,
         btn: -2px 2px 0px #000400,
+        card: -8px 8px 0px #00040029,
+        card-2: 0px 3px 0px #000400
       )
     ),
     // scss-docs-end utils-shadow
@@ -481,7 +482,8 @@ $utilities: map-merge(
         sm: $line-height-sm,
         base: $line-height-base,
         lg: $line-height-lg,
-        14: 1.4
+        14: 1.4,
+        16: 1.66
       )
     ),
     "text-align": (
