@@ -21,7 +21,7 @@
       <li class="menu-item">
         <a class="menu-link" href="#">
           <i class="menu-icons bg-info bi bi-hand-thumbs-up fs-5 me-4"></i>
-          追蹤名單
+          我按讚的文章
         </a>
       </li>
     </ul>
