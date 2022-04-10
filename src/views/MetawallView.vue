@@ -2,7 +2,9 @@
   <Navbar />
   <div class="container pt-12" style="max-width: 869px">
     <div class="d-flex justify-content-between">
-      <div style="width: 61%">Content Wall</div>
+      <div style="width: 61%">
+        <router-view />
+      </div>
       <div style="width: 35%">
         <Sidebar />
       </div>
