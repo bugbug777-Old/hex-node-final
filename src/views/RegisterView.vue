@@ -1,7 +1,7 @@
 <template>
   <div class="container d-flex justify-content-center align-items-center vh-100">
     <div
-      class="card shadow-card rounded-0 border-2 border-black | bg-light-gray | px-12 py-70"
+      class="card shadow-card rounded-0 border-2 border-dark | bg-light-gray | px-12 py-70"
       style="max-width: 873px"
     >
       <div class="row gx-12">
@@ -21,7 +21,7 @@
                 <label for="name" class="form-label d-none"></label>
                 <input
                   type="name"
-                  class="form-control rounded-0 border-2 border-black mb-1"
+                  class="form-control rounded-0 border-2 border-dark mb-1"
                   id="name"
                   placeholder="暱稱"
                 />
@@ -31,7 +31,7 @@
                 <label for="email" class="form-label d-none"></label>
                 <input
                   type="email"
-                  class="form-control rounded-0 border-2 border-black"
+                  class="form-control rounded-0 border-2 border-dark"
                   id="email"
                   placeholder="Email"
                 />
@@ -41,7 +41,7 @@
                 <label for="password" class="form-label d-none"></label>
                 <input
                   type="password"
-                  class="form-control rounded-0 border-2 border-black"
+                  class="form-control rounded-0 border-2 border-dark"
                   id="password"
                   placeholder="Password"
                 />
