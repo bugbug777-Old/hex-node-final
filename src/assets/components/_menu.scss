@@ -1,0 +1,28 @@
+.menu {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.menu-link {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #000400;
+  &:hover {
+    color: #03438d;
+    .menu-icons {
+      background-color: #03438d !important;
+      color: #fff;
+    }
+  }
+}
+.menu-icons {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000400;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
