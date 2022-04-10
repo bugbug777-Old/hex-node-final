@@ -2,7 +2,7 @@
   <div class="container d-flex justify-content-center align-items-center vh-100">
     <div
       class="card shadow-card rounded-0 border-2 border-dark | bg-light-gray | px-12 py-70"
-      style="max-width: 873px"
+      style="max-width: 869px"
     >
       <div class="row gx-12">
         <div class="col-md-6">
