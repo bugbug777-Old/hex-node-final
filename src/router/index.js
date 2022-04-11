@@ -21,6 +21,10 @@ const routes = [
         path: 'following',
         component: () => import('../views/FollowingView.vue'),
       },
+      {
+        path: 'likes',
+        component: () => import('../views/LikesView.vue'),
+      },
     ],
   },
 ];
