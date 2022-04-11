@@ -1,0 +1,15 @@
+.box-shift {
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 2px;
+    right: 2px;
+    left: -6px;
+    bottom: -6px;
+    border: 2px solid #000400;
+    background-color: #fff;
+  }
+}
