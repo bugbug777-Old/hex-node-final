@@ -12,7 +12,7 @@
             <p class="text-pale-gray fs-7 lh-14">您已追蹤 90 天！</p>
           </h5>
         </div>
-        <p class="class=fs-7 lh-14">
+        <p class="fs-7 lh-14">
           追蹤時間：<time datetime="2022-2-14 12:00">2022/2/14 12:00</time>
         </p>
       </div>
@@ -26,7 +26,7 @@
             <p class="text-pale-gray fs-7 lh-14">您已追蹤 90 天！</p>
           </h5>
         </div>
-        <p class="class=fs-7 lh-14">
+        <p class="fs-7 lh-14">
           追蹤時間：<time datetime="2022-2-14 12:00">2022/2/14 12:00</time>
         </p>
       </div>
@@ -40,7 +40,7 @@
             <p class="text-pale-gray fs-7 lh-14">您已追蹤 90 天！</p>
           </h5>
         </div>
-        <p class="class=fs-7 lh-14">
+        <p class="fs-7 lh-14">
           追蹤時間：<time datetime="2022-2-14 12:00">2022/2/14 12:00</time>
         </p>
       </div>
@@ -54,7 +54,7 @@
             <p class="text-pale-gray fs-7 lh-14">您已追蹤 90 天！</p>
           </h5>
         </div>
-        <p class="class=fs-7 lh-14">
+        <p class="fs-7 lh-14">
           追蹤時間：<time datetime="2022-2-14 12:00">2022/2/14 12:00</time>
         </p>
       </div>
@@ -68,7 +68,7 @@
             <p class="text-pale-gray fs-7 lh-14">您已追蹤 90 天！</p>
           </h5>
         </div>
-        <p class="class=fs-7 lh-14">
+        <p class="fs-7 lh-14">
           追蹤時間：<time datetime="2022-2-14 12:00">2022/2/14 12:00</time>
         </p>
       </div>
