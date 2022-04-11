@@ -13,10 +13,10 @@
         </a>
       </li>
       <li class="menu-item mb-5">
-        <a class="menu-link" href="#">
+        <router-link class="menu-link" to='/metawall/following'>
           <i class="menu-icons bg-info bi bi-bell fs-5 me-4"></i>
           追蹤名單
-        </a>
+        </router-link>
       </li>
       <li class="menu-item">
         <a class="menu-link" href="#">
