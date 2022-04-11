@@ -1,9 +1,9 @@
 <template>
   <div class="bg-white border border-2 border-dark px-6 py-8">
-    <a
-      href="#"
+    <router-link
+      to="/metawall/post"
       class="btn btn-primary btn-hover-warning shadow-btn border border-2 border-dark w-100 mb-6"
-      >張貼動態</a
+      >張貼動態</router-link
     >
     <ul class="menu">
       <li class="menu-item mb-5">
