@@ -88,7 +88,11 @@
           <li class="card border-0 bg-light-gray mb-4">
             <div class="card-body">
               <div class="d-flex mb-1">
-                <img src="@/assets/img/user5.png" alt="headshot" class="icons-sm me-3" />
+                <img
+                  src="@/assets/img/user5.png"
+                  alt="headshot"
+                  class="icons-sm rounded-circle border border-2 border-dark me-3"
+                />
                 <h5 class="card-title mb-0">
                   <a class="d-block link-dark link-hover fs-6 lh-base" href="#">希琳</a>
                   <time datetime="2022-1-11 10:00" class="d-block text-pale-gray fs-8 lh-16"
