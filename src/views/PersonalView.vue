@@ -21,12 +21,12 @@
     <li class="nav-item" role="presentation">
       <button
         class="nav-link tab-normal"
-        id="profile-tab"
+        id="password-tab"
         data-bs-toggle="tab"
-        data-bs-target="#profile"
+        data-bs-target="#password"
         type="button"
         role="tab"
-        aria-controls="profile"
+        aria-controls="password"
         aria-selected="false"
       >
         重設密碼
@@ -81,7 +81,8 @@
           </div>
         </div>
         <div class="invalid-feedback text-center fs-7 mt-0 mb-4">
-          1.圖片寬高比必需為 1:1，請重新輸入<br /> 2. 解析度寬度至少 300像素以上，請重新輸入
+          1.圖片寬高比必需為 1:1，請重新輸入<br />
+          2. 解析度寬度至少 300像素以上，請重新輸入
         </div>
         <input
           class="btn border border-2 border-dark btn-warning btn-hover-primary
@@ -91,10 +92,32 @@
         />
       </div>
     </div>
-    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia quibusdam rerum.
-      Molestias commodi iure magnam asperiores ex. Consequatur quos optio exercitationem non ut
-      similique ullam, quas omnis iusto possimus.
+    <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">
+      <div class="card-body p-0 mx-auto" style="width: 63%">
+        <div class="mb-4">
+          <label for="newPassword" class="form-label mb-1">輸入新密碼</label>
+          <input
+            type="password"
+            class="form-control rounded-0 border-2 border-dark"
+            id="newPassword"
+            placeholder="請輸入新密碼"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="confirmPassword" class="form-label mb-1">再次輸入</label>
+          <input
+            type="password"
+            class="form-control rounded-0 border-2 border-dark"
+            id="confirmPassword"
+            placeholder="再次輸入新密碼"
+          />
+        </div>
+        <input
+          class="btn border border-2 btn-secondary text-white d-block w-100"
+          type="button"
+          value="重設密碼"
+        />
+      </div>
     </div>
   </div>
 </template>
