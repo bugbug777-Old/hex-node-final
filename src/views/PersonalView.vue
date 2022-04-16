@@ -116,11 +116,9 @@
     height: 40px;
   }
 }
-.img-control {
-  width: 100%;
-  height: 100%;
-  object-position: center bottom;
-  object-fit: fill;
+.link-hover:hover {
+  color: #03438d;
+  text-decoration: underline;
 }
 .bg-pink {
   background-color: #fc91a1;
