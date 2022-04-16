@@ -36,14 +36,17 @@
               >
             </button>
             <ul
-              class="dropdown-menu rounded-0 border-2 border-dark text-center py-0 mt-2"
+              class="dropdown-menu rounded-0 border-2
+              border-dark text-center py-0 mt-2"
               aria-labelledby="navbarDarkDropdownMenuLink"
             >
               <li class="border-bottom border-2 border-dark">
                 <a class="dropdown-item" href="#">我的貼文牆</a>
               </li>
               <li class="border-bottom border-2 border-dark">
-                <a class="dropdown-item" href="#">修改個人資料</a>
+                <router-link class="dropdown-item" to="/metawall/personal"
+                  >修改個人資料</router-link
+                >
               </li>
               <li><a class="dropdown-item" href="#">登出</a></li>
             </ul>

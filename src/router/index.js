@@ -29,6 +29,10 @@ const routes = [
         path: 'likes',
         component: () => import('../views/LikesView.vue'),
       },
+      {
+        path: 'personal',
+        component: () => import('../views/PersonalView.vue'),
+      },
     ],
   },
 ];

@@ -13,3 +13,17 @@
     background-color: #fff;
   }
 }
+.box-shift-right {
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    right: -6px;
+    left: 2px;
+    bottom: -6px;
+    border: 2px solid #000400;
+    background-color: #fff;
+  }
+}
