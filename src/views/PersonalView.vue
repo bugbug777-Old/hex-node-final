@@ -1,6 +1,24 @@
 <template>
-  <div class="box-shift border border-2 border-dark text-center font-monospace bg-white py-5 mb-8">
-    <h2 class="fs-5">修改個人資料</h2>
+  <div class="card box-shift box-shift-rounded border border-2 border-dark bg-white mb-8">
+    <div class="d-flex">
+      <div style="max-width: 80px">
+        <img src="@/assets/img/user5-4@2x.png" class="rounded-start bg-pink" alt="headshot" />
+      </div>
+      <div class="flex-grow-1">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex flex-column">
+              <h2 class="fs-6">阿爾敏</h2>
+              <p>987,987 人追蹤</p>
+            </div>
+            <button
+              type="button"
+              class="btn border border-2 border-dark btn-warning shadow-btn px-8 py-2"
+            >追蹤</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- 功能列 -->
   <div class="d-flex mb-4">
@@ -97,5 +115,14 @@
     width: 40px;
     height: 40px;
   }
+}
+.img-control {
+  width: 100%;
+  height: 100%;
+  object-position: center bottom;
+  object-fit: fill;
+}
+.bg-pink {
+  background-color: #fc91a1;
 }
 </style>

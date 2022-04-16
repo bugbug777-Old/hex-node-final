@@ -12,6 +12,9 @@
     border: 2px solid #000400;
     background-color: #fff;
   }
+  &-rounded::after {
+    border-radius: 8px;
+  }
 }
 .box-shift-right {
   &::after {
