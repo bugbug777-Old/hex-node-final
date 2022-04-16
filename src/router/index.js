@@ -18,6 +18,10 @@ const routes = [
         component: () => import('../views/PostsView.vue'),
       },
       {
+        path: 'posts/:id',
+        component: () => import('../views/PostsView.vue'),
+      },
+      {
         path: 'post',
         component: () => import('../views/PostView.vue'),
       },
@@ -30,8 +34,8 @@ const routes = [
         component: () => import('../views/LikesView.vue'),
       },
       {
-        path: 'personal',
-        component: () => import('../views/PersonalView.vue'),
+        path: 'info',
+        component: () => import('../views/InfoView.vue'),
       },
     ],
   },

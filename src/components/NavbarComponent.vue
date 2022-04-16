@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-white border-bottom border-2 border-dark py-3">
     <div class="container" style="max-width: 873px">
-      <router-link class="navbar-brand font-paytone lh-14 text-dark py-0" to="/metawall"
+      <router-link class="navbar-brand font-paytone lh-14 text-dark py-0" to="/metawall/posts"
         >MetaWall</router-link
       >
       <button
@@ -44,7 +44,7 @@
                 <a class="dropdown-item" href="#">我的貼文牆</a>
               </li>
               <li class="border-bottom border-2 border-dark">
-                <router-link class="dropdown-item" to="/metawall/personal"
+                <router-link class="dropdown-item" to="/metawall/info"
                   >修改個人資料</router-link
                 >
               </li>
