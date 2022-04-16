@@ -19,7 +19,7 @@ const routes = [
       },
       {
         path: 'posts/:id',
-        component: () => import('../views/PostsView.vue'),
+        component: () => import('../views/PersonalView.vue'),
       },
       {
         path: 'post',
